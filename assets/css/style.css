@@ -1,0 +1,56 @@
+.navbar img{
+    width: 2em;
+    height: 2em;
+}
+
+body{
+    background: #fff;
+}
+
+.header{
+    text-align: center;
+    color: #fff;
+}
+
+h6{
+    color: white;
+    text-align: center;
+}
+
+h4{
+    color: black;
+}
+
+.card{
+   padding: 1rem;
+}
+
+.resulta{
+    text-align: justify;
+
+}
+
+.resulta .card{
+    margin: auto;
+    color: rgb(105, 5, 55);
+}
+
+#chartContainer{
+    height: 300px;
+    width: 100%;
+    margin: 10px;
+}
+
+.footer{
+    text-align: center;
+    padding: 10px;
+    margin-top: 2rem;
+}
+.footer a{
+    color: #fff;
+}
+
+img{
+    width: 50%;
+    text-align: center;
+}

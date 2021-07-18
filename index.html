@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Heroes</title>
+
+    <meta name="author" content="Pedro Eduardo Donoso Ramírez">
+
+    <link rel="icon" href="assets/img/favicon.ico"/>
+
+
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+       integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-danger">
+        <a class="navbar-brand" href="#"><img src="assets/img/sh2.jpg">Personajes</a>
+    </nav>
+
+    <header class="header container">
+        <h5>Busca héroe o heroína</h5>
+        <div class="foto">
+            <img src="assets/img/sh1.jpg" alt="">
+        </div>
+    </header>
+
+
+    <div class="container">
+         <section class="buscar">
+        <form class="container">
+
+            <div class="row text">
+
+                <div class="col-6 col-sm-6">
+<div class="form-group">
+                <h6>Ingresa N° hasta 731</h6>
+                <input type="text" class="heroe form-control">
+            </div>
+                </div>
+
+                <div class="col-6 col-sm-6">
+
+    <button class="btn btn-danger my-4" type="button">Ingresa un N°</button>
+                </div>
+
+
+            </div>
+
+            
+        
+          </form>
+    </section>
+    </div>
+   
+
+   
+    <section class="resulta">
+         <h6>Coincidencia de búsqueda:</h6>
+        <div class="card" style="max-width: 80%">
+            <div class="row">
+                <div class="imagen col-md-3">
+                </div>
+                <div class="col-md-9">
+                    <div class="card-body">
+                        <h4 class="heroe__nombre card-title"></h4>
+                        <p class="heroe__completo card-title"></p>
+
+                        <p class="heroe__alias card-text"></p>
+                        <p class="heroe__peso card-text"></p>
+                        <p class="heroe__altura card-text"></p>
+                        <p class="heroe__aparicion card-text"></p>
+                        <p class="heroe__ocupacion card-text"></p>
+                        <p class="heroe__publisher card-text"></p>
+                        <p class="heroe__conexiones card-text"></p>     
+                            <p class="heroe__genero card-text"></p>
+                            <p class="heroe__raza card-text"></p>
+                              <p class="heroe__ojos card-text"></p>
+                               <p class="heroe__pelo card-text"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <br><br>
+    <section class="estadisticas container">
+        <div id="chartContainer"></div>
+    </section>
+
+    <footer class="footer bg-danger">
+        <strong><a href="#">Heroes & Heroinas | Sin derechos reservados</a></strong>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.js"
+        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+       integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous">
+   </script>
+
+    <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
